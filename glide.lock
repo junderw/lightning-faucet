@@ -1,5 +1,5 @@
-hash: 961cadcde2b32bd49dcb1a9ed967f779a5872a1841d621efe6cfdeb9e8a628da
-updated: 2017-08-22T19:02:54.802471344-07:00
+hash: d1efeafd606c0224573ba9c0a5a92b387f237d9f343a3297e7f61e16715fbe02
+updated: 2018-01-24T09:16:35.002987998Z
 imports:
 - name: github.com/boltdb/bolt
   version: 2f1ce7a837dcb8da3ec595b1dac9d0632f0f99e8
@@ -13,6 +13,10 @@ imports:
   version: 346938d642f2ec3594ed81d874461961cd0faa76
   subpackages:
   - spew
+- name: github.com/golang/crypto
+  version: 3d37316aaa6bd9929127ac9a527abf408178ea7b
+  subpackages:
+  - acme/autocert
 - name: github.com/golang/protobuf
   version: fec3b39b059c0f88fa6b20f5ed012b1aa203a8b4
   subpackages:
@@ -24,7 +28,7 @@ imports:
 - name: github.com/gorilla/context
   version: 08b5f424b9271eedf6f9f0ce86cb9396ed337a42
 - name: github.com/gorilla/mux
-  version: bcd8bc72b08df0f70df986b97f95590779502d31
+  version: 53c1911da2b537f792e7cafcb446b05ffe33b996
 - name: github.com/grpc-ecosystem/grpc-gateway
   version: f2862b476edcef83412c7af8687c9cd8e4097c0f
   subpackages:
@@ -39,7 +43,7 @@ imports:
   - lnrpc
   - macaroons
 - name: github.com/roasbeef/btcd
-  version: a64d018fd91151b842522d64771610712565d30a
+  version: ""
   subpackages:
   - btcec
   - chaincfg
@@ -59,7 +63,6 @@ imports:
   version: 122d919ec1efcfb58483215da23f815853e24b81
   subpackages:
   - acme
-  - acme/autocert
   - curve25519
   - nacl/box
   - nacl/secretbox
